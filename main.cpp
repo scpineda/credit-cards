@@ -21,6 +21,7 @@ int main()
     // Send it through hashing algorithm
     string str = "This is";
 
+    // Add the word not if it is not valid.
     if(!validCard(cardNum))
         str += " not";
 
@@ -106,7 +107,6 @@ bool validCard(int cardNum[])
         return true;
 
     // else, return false
-
     return false;
 }
 
